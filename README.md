@@ -85,5 +85,78 @@ else:
     n:str == print("El caracter que colocaste NO es un dígito")
 
 ```
+```
+Ejemplito de chill:
+
+Vamo a ve si el caracter que colocas es digito o nel
+n = 7
+El caracter que colocaste es un dígito
+
+```
+
+
+## Punto 4
+
+Dado un número real x, construya un programa que permita determinar si el número es positivo, negativo o cero. Para cada caso de debe imprimir el texto que se especifica a continuación:
+
+Positivo: "El número x es positivo"
+Negativo: "El número x es negativo"
+Cero (0): "El número x es el neutro para la suma"
+
+El punto se soluciona facial bajo los condicionales de mayor a cero (0<x) y menor a 0 (0<x). Y el unico caso contrario a estos casos, es cuado ya es igual a cero (=0)
+
+```
+x:float
+print("Ingrese un número x cualquiera")
+x=int( input("x: "))
+
+if x>0:
+    print("El numero que colocaste es positivo")
+elif x<0:
+    print("El número que colocaste es negativo")
+elif x == 0:
+    print("El número x es el neutro para la suma")
+```
+
+```
+Ejemplito chevere:
+Ingrese un numero x cualquiera
+x = -4
+El número que colocaste es negativo
+
+```
+
+## Punto 5
+
+Dado el centro y el radio de un círculo, determinar si un punto de R2 pertenece o no al interior del círculo.
+
+Aca si toca por partes xd
+
+En primera instancia hay que pedirle al usuario que ingrese el eje de coordenadas (x,y) del centro del circulo y el radio que desee
+
+```
+print("Primero definamos el centro de nuestro circulo")
+centro_en_x:float(input("Escoge un centro en el eje x: "))
+centro_en_y:float(input("Escoge un centro ahora en el eje y: "))
+
+```
+
+
+```
+print ("Ahora necesitamos un radio")
+radio: float(input("Elije el radio que gustes: "))
+
+```
+
+Ahora le pediremos que ingrese un punto cualquier del plano cartiasno con su respectivo eje (x,y) asi:
+
+```
+#Ahora pedimos que coloque un punto (X,y) que desee
+print("Ahora selecciona cualquier punto del plano cartesiano con eje en x y eje en y")
+punto_en_x:float (input("Ahora tu nuevo punto esta en x igual a: "))
+punto_en_y:float (input("Y va acompañado de tu punto en el y igual a: "))
+
+```
+
 
 

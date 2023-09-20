@@ -1,5 +1,7 @@
 # Reto_4_a_un_paso_de_hakehar_la_nasa
 
+Aqui el notebook: https://github.com/AnonymusconH/Reto_4_a_un_paso_de_hakehar_la_nasa/blob/main/Reto_4_a_un_paso_de_hakehar_la_nasa.ipynb
+
 ## Punto 1
 
 Dado un número entero, determinar si ese número corresponde al código ASCII de una vocal minúscula.
@@ -157,6 +159,8 @@ punto_en_x:float (input("Ahora tu nuevo punto esta en x igual a: "))
 punto_en_y:float (input("Y va acompañado de tu punto en el y igual a: "))
 
 ```
+
+### La re wen pa´l profe y pa´ tod@s <333
 
 
 
